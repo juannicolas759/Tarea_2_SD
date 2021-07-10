@@ -10,7 +10,7 @@ var carros = ['Mazda 6', 'Toyota Prado', 'Chevrolet Cruz', 'Mercedes-Benz G 63',
 app.set('port', 5000)
 
 app.get('/', function(req, res){
-    res.sendFile(__dirname+'/f.html')
+    res.sendFile(__dirname+'/index.html')
 })
 
 app.post('/procesar', function(req, res){
