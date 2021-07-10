@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ingrese la posicion del carro entre 1 y 5 que desea obtener</h2>
+    <form action="/procesar" method="POST" >
+        <input type="number" placeholder="ingrese numero" id="carro" name="posicion" min="1" max="5" maxlength="1" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        <button type="submit" >Buscar</button>
+
+    </form>
+</body>
+</html>
